@@ -1,0 +1,58 @@
+:root {
+    --color-tema: white;
+    --color-primario: rgb(8, 13, 93);
+    --color-secundario: ;
+    --color-texto: black;
+    --color-sombra: rgba(6, 6, 6, 0.418);
+}
+
+.topheader {
+    box-shadow: 0 4px 5px var(--color-sombra);
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: var(--color-tema);
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-primario);
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 0 15px;
+}
+
+.menu a {
+    color: var(--color-texto);
+    font-size: 18 px;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: uppercase;
+
+}
