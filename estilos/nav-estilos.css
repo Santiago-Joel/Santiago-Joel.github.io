@@ -4,6 +4,7 @@
     --color-secundario: ;
     --color-texto: black;
     --color-sombra: rgba(6, 6, 6, 0.418);
+    --color-navegacion: rgb(71, 73, 194);
 }
 
 .topheader {
@@ -21,6 +22,10 @@
     padding: 10px;
     max-width: 1280px;
     margin: 0 auto;
+}
+.topnav div:hover{
+    text-decoration: underline;
+    color: black;
 }
 
 /* Logo */
@@ -55,4 +60,10 @@
     line-height: 50px;
     text-transform: uppercase;
 
+}
+
+/*Efectos al pasar el mouse sobre el menu*/
+.menu li a:hover {
+    text-decoration: underline;
+    color: var(--color-primario);
 }
