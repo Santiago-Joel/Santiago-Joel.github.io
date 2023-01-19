@@ -8,7 +8,8 @@
 }
 
 .topheader {
-    box-shadow: 0 4px 5px var(--color-sombra);
+    position:relative;
+    box-shadow: 0 5px 5px var(--color-sombra);
     left: 0;
     right: 0;
     width: 100%;

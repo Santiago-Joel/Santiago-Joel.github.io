@@ -1,14 +1,12 @@
-:root{
-    --color-tema:white ;
-    --color-primario: rgb(8, 13, 93) ;
-    --color-secundario: ;
-    --color-texto: black;
+html{
+    scroll-behavior: auto;
 }
-body{
-    font-family:"Montserrat", sans-serif;
+body {
+    font-family: "Montserrat", sans-serif;
     background-color: var(--color-tema);
     color: var(--color-texto);
 }
+
 a {
     text-decoration: none;
     color: var(--color-texto);
