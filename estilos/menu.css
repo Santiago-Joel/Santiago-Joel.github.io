@@ -1,10 +1,11 @@
 html{
-    scroll-behavior: auto;
+    scroll-behavior:smooth;
 }
 body {
     font-family: "Montserrat", sans-serif;
     background-color: var(--color-tema);
     color: var(--color-texto);
+  
 }
 
 a {

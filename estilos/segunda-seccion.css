@@ -1,3 +1,4 @@
+
 :root {
     --color-tema: white;
     --color-primario: rgb(8, 13, 93);
@@ -14,27 +15,45 @@
     justify-content: center;
     padding: 20px;
     margin: 0;
+    background-image: url(/imagenes/fondo\ celeste.jpg);
+    background-size:cover ;
+    
 }
 
-.titulo-exp {
-    list-style: none;
+.titulo {
+    justify-content: center;
     text-align: center;
+    align-items: center;
+    display: flex;
 }
 
 .experiencia-obtenida {
+    display: block;
     list-style: none;
     text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.experiencia-obtenida li div {
+    color: var(--color-texto);
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px var(--color-sombra);
+
 }
 
 .titulo-de-experiencia {
+    width: 1em;
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
     color: var(--color-primario);
 }
 
 .experiencia {
     margin: auto;
     padding: 15px;
-    background-color: var(--color-seccion2);
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px var(--color-sombra);
-
 }

@@ -1,3 +1,4 @@
+
 :root {
     --color-tema: white;
     --color-primario: rgb(8, 13, 93);
@@ -5,11 +6,8 @@
     --color-texto: black;
     --color-sombra: rgba(6, 6, 6, 0.418);
     --color-navegacion: rgb(71, 73, 194);
-    --color-seccion1: rgb(233, 241, 247);
+    --color-seccion1: #516bf067;
 }
-
-
-
 .info {
     display: flex;
     justify-content: space-around;
@@ -17,8 +15,10 @@
     padding: 20px;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: var(--color-seccion1);
-    box-shadow: 0 5px 5px var(--color-sombra);
+    /**background-color:#516bf067;*/
+    background-image: url(/imagenes/white-backgroundppt-337.jpg);
+    background-size: cover;
+
 }
 
 .info-perfil {
@@ -26,6 +26,7 @@
 }
 
 .datos-personales {
+    margin: 0;
     text-align: center;
     list-style: none;
 }

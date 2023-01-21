@@ -1,0 +1,48 @@
+
+:root {
+    --color-tema: white;
+    --color-primario: rgb(8, 13, 93);
+    --color-secundario: ;
+    --color-texto: black;
+    --color-sombra: rgba(6, 6, 6, 0.418);
+    --color-navegacion: rgb(71, 73, 194);
+    --color-seccion1: rgb(233, 241, 247);
+    --color-seccion2: rgb(224, 222, 222);
+    
+}
+
+.hab {
+    display:block;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+.titulo-hab{
+    list-style: none;
+    text-align: center;
+    
+}
+
+.titulo-de-habilidades {
+    color: var(--color-primario);
+}
+
+.habilidades {
+    display: flex;
+}
+.habilidades-desarroladas{
+    list-style: none;
+    text-align: center;
+}
+.habilidades-desarroladas li{
+    display: inline-table;
+}
+.habilidades-desarroladas li div {
+    color: black;;
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    background: #60c6efbf;
+    border-radius:10px;
+    
+}
