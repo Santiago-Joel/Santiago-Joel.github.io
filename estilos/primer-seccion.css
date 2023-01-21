@@ -1,4 +1,3 @@
-
 :root {
     --color-tema: white;
     --color-primario: rgb(8, 13, 93);
@@ -8,6 +7,7 @@
     --color-navegacion: rgb(71, 73, 194);
     --color-seccion1: #516bf067;
 }
+
 .info {
     display: flex;
     justify-content: space-around;
@@ -33,6 +33,7 @@
 
 .titulo-de-perfil {
     color: var(--color-primario);
+    text-shadow:100px white;
 }
 
 

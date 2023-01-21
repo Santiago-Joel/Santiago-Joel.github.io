@@ -1,14 +1,22 @@
-html{
-    scroll-behavior:smooth;
+html {
+    scroll-behavior: smooth;
 }
+
 body {
     font-family: "Montserrat", sans-serif;
     background-color: var(--color-tema);
     color: var(--color-texto);
-  
+    
+
 }
 
 a {
     text-decoration: none;
     color: var(--color-texto);
+}
+.main{
+    padding-top: 70px;
+}
+section[id]{
+    scroll-margin-top: 70px;
 }
